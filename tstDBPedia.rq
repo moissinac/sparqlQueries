@@ -1,0 +1,6 @@
+# pour dbpedia-fr  http://fr.dbpedia.org/sparql
+select distinct ?p where 
+{
+?p dbpedia-owl:birthPlace dbpedia-fr:Paris .
+?p dbpedia-owl:profession dbpedia-fr:Écrivain
+} LIMIT 30
