@@ -1,8 +1,8 @@
 # pour dbpedia-fr  http://fr.dbpedia.org/sparql
-select distinct ?p 
-FROM <http://fr.dbpedia.org/>
-where 
-{
-?p dbpedia-owl:birthPlace dbpedia-fr:Paris .
-?p dbpedia-owl:profession dbpedia-fr:Écrivain
-} LIMIT 30
+# select distinct ?p 
+# FROM <http://fr.dbpedia.org/>
+# where 
+# {
+# ?p dbpedia-owl:birthPlace dbpedia-fr:Paris .
+# ?p dbpedia-owl:profession dbpedia-fr:Écrivain
+# } LIMIT 30
